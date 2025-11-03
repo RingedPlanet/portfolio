@@ -1,0 +1,149 @@
+<!-- Professor Zach Wise Website -->
+<!-- https://nuknightlab.notion.site/foundations-of-interactive-journalism -->
+
+<!-- How to create a GitHub repository -->
+
+
+<html lang="en">
+    <head>
+        <!-- Make sure your website is not untitled -->
+        <!-- Basic Meta Tags -->
+        <meta charset="UTF-8">
+        <!-- Ask Zach for metadata tags on his Notion site -->
+
+
+
+        <!-- https://favicon.io/favicon-converter/ -> Copy and paste bottom code section -->
+         <!-- Change href to the directory -->
+          <!-- This is so the picture of you shows up in a Google Search -->
+           <!-- People create images directory if have a lot of images and put them all here -->
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+        <link rel="manifest" href="favicon_io/site.webmanifest">
+
+
+        <!-- shared card for how it previews on your phone. -->
+         <!-- <put your image here -->
+         <meta name="twitter:card" content="sumary_large_image">
+
+
+
+
+
+
+
+
+        <!-- Need to have a title -->
+        <title>My Portfolio</title>
+        <!-- How to link to css file -->
+        <link rel="stylesheet" href="website.css">
+        <!-- VSC View -> Extensions -> "Live Preview" install by Microsoft for local server, and opens web browswer in local editor -->
+         <!-- Then to search at top of VSC code ^ and do s"earch and run commands: -> type "Live Preview" -> then "show live preview (internal browser)"  -->
+    </head>
+
+
+<body>
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+  <header>
+    <div class="container">
+      <nav>
+        <h1>Julia Levy</h1>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+		  <li><a class="red" onclick="myFunction()">*Toggle Dark Mode*</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- ABOUT -->
+    <section id="about">
+      <h2>About</h2>
+      <div class="about">
+        <img src="https://drive.google.com/thumbnail?id=1KTwj1ACh9TGpXuADGY6fEc3HwkP8gn3c" alt="Portrait of Julia Levy">
+        <div>
+          <p><strong>A sustainable researcher and scientific journalist</strong> specializing in <em>astrophysics and computer science</em>. Passionate about outreach and building solutions through legislation.</p>
+          <div class="meta-chips">
+            <span class="chip">Observing Assistant</span>
+            <span class="chip">Space Policy Delegate</span>
+            <span class="chip">Comer Scholar</span>
+			<span class="chip">Abrams Climate Academy Fellow</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work">
+      <h2>Selected Work</h2>
+      <div class="grid">
+        <article class="card">
+          <h3><a class="title" href="https://yaledailynews.com/blog/2025/01/26/yale-research-recognized-as-a-top-ten-physics-breakthrough-of-2024/">Yale research recognized as a Top Ten Physics Breakthrough of 2024</a></h3>
+          <p class="deck">A prestigious award given by the publication Physics World. I compared the intricacies of particle decay as a simple analogy of riding a skateboard. The story received a vast reception outside of the physics community to distill a very complicated concept with a fun metaphor (with a comic included)!</p>
+          <p class="meta">Staff Reporter • The Yale Daily News • 2025</p>
+          <span class="tag">print</span> <span class="tag">physics</span>
+        </article>
+        <article class="card">
+          <h3><a class="title" href="https://yaledailynews.com/blog/2024/09/17/sunken-ship-helps-yale-physicists-unlock-secrets-of-the-universe/">Sunken ship helps Yale physicists unlock secrets of the universe</a></h3>
+          <p class="deck">Yale researchers are analyzing lead ingots discovered in the mid-1990s from the wreck of a Roman Late Republican Vessel a few miles from the western coast of Italy. I interviewed both physicists and archaeologists on the interdisciplinary story.</p>
+          <p class="meta">Staff Reporter • The Yale Daily News • 2024</p>
+          <span class="tag">print</span> <span class="tag">archaeology</span>
+        </article>
+		<article class="card">
+          <h3><a class="title" href="https://yaledailynews.com/blog/2025/02/16/u-s-senate-report-flags-4-7-million-of-yales-nsf-funding-for-promoting-dei/">U.S. Senate report flags $4.7 million of Yale’s NSF funding for “promoting DEI”</a></h3>
+          <p class="deck">Sen. Ted Cruz, who spearheaded the report, called to end the “politicization” of National Science Foundation funding, as the foundation scours grants for violations of Trump’s orders.</p>
+          <p class="meta">Staff Reporter • The Yale Daily News • 2025</p>
+          <span class="tag">print</span> <span class="tag">front page</span><span class="tag">team reporting</span>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2>Projects & Visuals</h2>
+    <!--  <p>Embed charts, maps, or GitHub links here.</p> -->
+	  <ul>
+        <li><strong>Classifying Pulsars from the HTRU2 Dataset: </strong>Achieved 97.85% accuracy for 17, 898 pulsar candidates by comparing data scaling methods for ML algorithms: <a href="https://drive.google.com/file/d/1y2YKq-d_7FuMmpxP5BbXayS0WC25IfFG/view">link to paper.</a>.</li>
+        <li><strong>DecoherenceLab: </strong>A highly accessible HTML interface to visualize and simulate quantum circuits with a focus on noise modeling: <a href="https://nisq-simulator-a24607e46084.herokuapp.com/">link to project</a>,  <a href="https://github.com/yale-swe/f24-nisq-quantum-simulator">link to GitHub Repo.</a></li>
+      </ul>
+	  
+    </section>
+
+    <!-- RESUME -->
+    <section id="resume">
+      <h2>Resume</h2>
+      <p><a href="https://drive.google.com/file/d/1U_1uCUr32bMbtUbGc3tWKWcP5cQSyf5-/view?usp=sharing">View Resume (PDF)</a></p>
+	  <h3>Key Skills</h3>
+	  <ul>
+        <li><strong>Programming: </strong>Adobe Suite, C/C++, CSS, HTML, JavaScript, MATLAB, Microsoft Office, Python, Qiskit, Racket, Rust, SQL, UNIX and WordPress</li>
+        <li><strong>Teaching: </strong>Introduction to Astronomical Observing, Introduction to Programming, Introduction to Relativity and Black Holes, Mathematical Methods for Computer Science</li>
+      </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p><a href="mailto:julialevy2026@northwestern.edu">julialevy2026@northwestern.edu</a> · <a href="linkedin.com/in/julialevy9">linkedin.com/in/julialevy9</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© October 5, 2025 Julia Levy · Journalism Portfolio · Built with Northwestern Purple 💜</p>
+    <p>AI Disclosure: Layout and styling assisted by generative AI; all content edited by me.</p>
+  </footer>
+  <!-- Javascript usually goes in bottom, see the webpage but fuctionality not rihgt away and feels faster. -->
+   <!-- HTML is strange, some self close and some do not. -->
+   <script src="website.js"></script>
+</body>
+</html>
